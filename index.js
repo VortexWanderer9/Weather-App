@@ -17,14 +17,14 @@
         setInterval(whatTime,1000)
         function whatTime(){
             const now = new Date();
-        const formatTime =now.toLocaleTimeString()
+        const formatTime = now.toLocaleTimeString()
         }
         }
 
         function generateHtmlOfDay(){
             let dayHtml ='';
             const now = new Date();
-            const formatTime =now.toLocaleTimeString()
+            const formatTime = now.toLocaleTimeString()
             
 
         setInterval(generateHtmlOfDay, 1000)
